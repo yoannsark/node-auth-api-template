@@ -1,5 +1,5 @@
 # node-auth-api-template
-Simple authentication NodeJS API template with MongoDB and AWS Lambda serverless deployment
+Simple auth API template with NodeJS, MongoDB and AWS Lambda serverless deployment
 
 # Install
 `yarn`
@@ -8,10 +8,10 @@ Simple authentication NodeJS API template with MongoDB and AWS Lambda serverless
 `yarn start` or `yarn dev` for hot reloading
 
 # Deploy
-AWS Lambda deployment with [Apex UP](https://github.com/apex/up)
+AWS Lambda deployment with [Apex Up](https://github.com/apex/up)
 
 ## Staging
 `yarn deploy`
 
 ## Production
-`yarn deploy`
+`yarn deploy-prod`
