@@ -1,0 +1,12 @@
+{
+  "name": "node-auth-api-template",
+  "profile": "default",
+  "regions": [
+    "eu-west-3"
+  ],
+  "environment": {
+    "MONGODB_URI": "",
+    "JWT_SECRET": "secret",
+    "JWT_TIMEOUT_DURATION": "30d"
+  }
+}

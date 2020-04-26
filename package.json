@@ -1,0 +1,27 @@
+{
+  "name": "node-auth-api-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "deploy": "rm -rf ./node_modules && yarn --prod && up",
+    "deploy-prod": "rm -rf ./node_modules && yarn --prod && up"
+  },
+  "repository": "git@github.com:yoannsark/node-auth-api-template.git",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.0",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.6",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
