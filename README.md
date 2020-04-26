@@ -1,5 +1,5 @@
 # node-auth-api-template
-Simple authentication NodeJS API template with serverless deploy
+Simple authentication NodeJS API template with MongoDB and AWS Lambda serverless deployment
 
 # Install
 `yarn`
